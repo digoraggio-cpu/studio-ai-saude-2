@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# @babel/helper-create-class-features-plugin
 
-# Run and deploy your AI Studio app
+> Compile class public and private fields, private methods and decorators to ES6
 
-This contains everything you need to run your app locally.
+See our website [@babel/helper-create-class-features-plugin](https://babeljs.io/docs/babel-helper-create-class-features-plugin) for more information.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1muoaLAxWZaAu_12WsKdWfP86Y-m3x6GN
+## Install
 
-## Run Locally
+Using npm:
 
-**Prerequisites:**  Node.js
+```sh
+npm install --save @babel/helper-create-class-features-plugin
+```
 
+or using yarn:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```sh
+yarn add @babel/helper-create-class-features-plugin
+```
